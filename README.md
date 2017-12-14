@@ -2,6 +2,10 @@ Wordclock
 =========
 Arduino Word Clock with minute resolution of time in words and linear display of seconds.
 
+Rather than using custom PCBs cheap off the shelf modules are used instead. This includes the touch sensor modules that use the TTP223 IC.
+
+The Display LEDs are built directly into the front panel so any size clock can be built. 
+
 There are also modes for digital clock, analogue clock, temperature & humidity, & also three games, Game of Life, Simon & Tetris.
 
 The clock can be stand alone or run as a slave off a Master Clock if required.
@@ -22,7 +26,7 @@ There are touch pads in each corner to setup and control the clock.
 
 A mini USB socket provides brightness information over the serial port and also allows software programming in situe.
 
-Rather than custom PCBs cheap off the shelf modules are used including the touch sensors that use the TTP223 IC.
+
 
 
 
