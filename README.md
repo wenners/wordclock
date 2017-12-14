@@ -33,7 +33,7 @@ Instructables: https://www.instructables.com/id/Arduino-Word-Clock/
 
 ![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/faceplate/Brett11_print_ready.png)
 
-![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/drawings/Side_animation_layers600.gif)
+![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/drawings/Word_clock_side_animation.gif)
 
 ![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/hardware/Schematic.png)
 
