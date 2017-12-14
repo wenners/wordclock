@@ -21,7 +21,10 @@
 #define BR_KEY_PRESSED_BIT 2
 #define TL_KEY_PRESSED_BIT 4
 #define TR_KEY_PRESSED_BIT 8
-
+//Brett
+//int synccheck = 0;
+//int syncIP = 5; // Sync input D5
+//Brett
 extern byte keysUpDown;
 extern byte keysPressed;
 
@@ -52,13 +55,14 @@ extern byte keysPressed;
 
 
 // Pins to capacitive touch chips (touch and presence for each of the Azoteq IQS127D chips in the four corners)
+// Note TTP223B Digital Capacitive Touch Sensor Modules used with no Presence switch so pinPRB, pinPRT etc not used
 #define pinTRB 9   // D9  Touch Right Bottom
 #define pinTRT 3   // D3  Touch Right Top
 #define pinTLT 4   // D4  Touch Left Top
 #define pinTLB 10  // D10 Touch Left Bottom
 // The presence pins are connected in hardware, but not used in this firmware.
 // Leaving the pin numbers in as comments for future reference.
-//#define pinPRB 5 // Presence Right Bottom
+
 //#define pinPRT 8 // Presence Right Top
 //#define pinPLT 7 // Presence Left Bottom
 //#define pinPLB 6 // Presence Left Top

@@ -15,10 +15,39 @@ void initDisplay()
 {
   for (int i = 0; i < noBoards; ++i)
   {
+    
     lc.shutdown(i, false);
     lc.clearDisplay(i);
+    
+    
   }
 }
+
+
+void initDisplayOff() // Blanks display when PIR no triggered
+{
+  for (int i = 0; i < noBoards; ++i)
+  {
+    
+    lc.shutdown(i, true);
+ //   lc.clearDisplay(i);
+    
+    
+  }
+}
+
+void initDisplayOn() // Activates display when PIR triggered
+{
+  for (int i = 0; i < noBoards; ++i)
+  {
+    
+    lc.shutdown(i, false);
+  //  lc.clearDisplay(i);
+    
+    
+  }
+}
+
 
 void setBrightness(int value)
 {
@@ -124,6 +153,10 @@ void updateDisplay()
       }
     }
 }
+
+
+
+
 
 /*
 void updateDisplay()

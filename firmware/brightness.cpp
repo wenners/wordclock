@@ -28,14 +28,15 @@ void brightnessManager(unsigned long now)
 
 // ADC values determined with a 500R-200M LDR to +5V and 20K resistor to ground (with capacitor in parallel to smooth transitions)
 //TODO adjust them again since LED current increased to 20mA and it's now a bit too bright in dark places
-#define LOWER_BOUND 50
-#define UPPER_BOUND 400
+#define LOWER_BOUND 10
+#define UPPER_BOUND 600 // changed from 400 to 600
 
 #define HYSTERESIS 5 // in ADC counts, prevents oscillation
 
 // Set the LED brightness automatically, depending on the ambient light reading
 void setBrightnessAuto()
 {
+ 
   static int8_t currentHysteresis = 0; // Do not use hysteresis the first time
   
   // Read ambient light sensor
@@ -46,7 +47,8 @@ void setBrightnessAuto()
   Serial.print(F("lightReading+hyster="));Serial.println(lightReading);
   lightReading = constrain(lightReading, LOWER_BOUND, UPPER_BOUND);
   Serial.print(F("constrained lightReading="));Serial.println(lightReading);
-  
+
+ 
   // lightReading -> bright mapping
   int bright = map(lightReading, LOWER_BOUND, UPPER_BOUND, 0, 15);
   Serial.print(F("bright="));Serial.println(bright);
@@ -58,6 +60,9 @@ void setBrightnessAuto()
     
     brightness = bright;
     setBrightness(bright);
+
+
+  
   }
 }
 

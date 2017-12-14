@@ -5,6 +5,8 @@
 
 
 // Show the boot message
+
+
 void showBootMessage() 
 {
   addWordToFrame(w_boot_josep);
@@ -33,6 +35,7 @@ void showBootMessage()
   clearFrame();
   updateDisplay();
 }
+
 
 unsigned int currentDelay = 10000;
 

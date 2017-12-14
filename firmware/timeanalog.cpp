@@ -54,6 +54,418 @@ void showTimeAnalog() {
   setFrame(frame2, 1 , 3, true);  //55
 
   drawTime(h, m);
+
+  // Seconds Display on bottom row
+    if(s == 0)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 1)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 2)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 3)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 4)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 5)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 6)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 7)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 8)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 9)
+    {
+      addWordToFrame(w_seconds[0]);
+      addWordToFrame(w_seconds[15]);
+    }
+
+
+
+    //------------------------------
+
+    
+    if(s == 10)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 11)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 12)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 13)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 14)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 15)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 16)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 17)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 18)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 19)
+    {
+      addWordToFrame(w_seconds[1]);
+      addWordToFrame(w_seconds[15]);
+    }
+
+     //------------------------------
+
+    
+    if(s == 20)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 21)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 22)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 23)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 24)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 25)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 26)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 27)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 28)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 29)
+    {
+      addWordToFrame(w_seconds[2]);
+      addWordToFrame(w_seconds[15]);
+    }
+
+
+     //------------------------------
+
+    
+    if(s == 30)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 31)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 32)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 33)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 34)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 35)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 36)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 37)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 38)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 39)
+    {
+      addWordToFrame(w_seconds[3]);
+      addWordToFrame(w_seconds[15]);
+    }
+
+
+
+      //------------------------------
+
+    
+    if(s == 40)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 41)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 42)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 43)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 44)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 45)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 46)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 47)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 48)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 49)
+    {
+      addWordToFrame(w_seconds[4]);
+      addWordToFrame(w_seconds[15]);
+    }
+    
+
+      //------------------------------
+
+    
+    if(s == 50)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[6]);
+    }
+
+    if(s == 51)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[7]);
+    }
+    
+    
+    if(s == 52)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[8]);
+    }
+
+    if(s == 53)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[9]);
+    }
+
+
+    if(s == 54)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[10]);
+    }
+
+
+    if(s == 55)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[11]);
+    }
+
+
+     if(s == 56)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[12]);
+    }
+
+    if(s == 57)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[13]);
+    }
+
+    if(s == 58)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[14]);
+    }
+
+
+    if(s == 59)
+    {
+      addWordToFrame(w_seconds[5]);
+      addWordToFrame(w_seconds[15]);
+    }
   
   updateDisplay();
 }

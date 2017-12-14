@@ -184,6 +184,7 @@ void serialMenu()
   }
 }
 
+
 // Print the menu on the serial port
 void printMenu()
 {

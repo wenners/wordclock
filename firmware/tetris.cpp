@@ -215,22 +215,25 @@ void platformEnd(StcGame *gameInstance) {
 }
 
 //modify this to read controller inputs
+
+// Brett modified by swapping TL,TR,BL & BR key up and key down (this could be due to the TTP223 Touch Sensor used on this version)
 void platformReadInput(StcGame *gameInstance){
   
-  // Top left button moves down the piece
-       if (TL_KEY_DOWN) gameOnKeyDown(&game, EVENT_MOVE_DOWN);
-  else if (TL_KEY_UP)   gameOnKeyUp  (&game, EVENT_MOVE_DOWN);
+   // Top left button moves down the piece
+       if (TL_KEY_UP) gameOnKeyDown(&game, EVENT_MOVE_DOWN);
+  else if (TL_KEY_DOWN)   gameOnKeyUp  (&game, EVENT_MOVE_DOWN);
 
   // Top right button rotates the piece  
-       if (TR_KEY_DOWN) gameOnKeyDown(&game, EVENT_ROTATE_CW);
-  else if (TR_KEY_UP)   gameOnKeyUp  (&game, EVENT_ROTATE_CW);
+       if (TR_KEY_UP) gameOnKeyDown(&game, EVENT_ROTATE_CW);
+  else if (TR_KEY_DOWN)   gameOnKeyUp  (&game, EVENT_ROTATE_CW);
   
   // Bottom button move the piece left or right
-       if (BL_KEY_DOWN) gameOnKeyDown(&game, EVENT_MOVE_LEFT);
-  else if (BL_KEY_UP)   gameOnKeyUp  (&game, EVENT_MOVE_LEFT);
+       if (BL_KEY_UP) gameOnKeyDown(&game, EVENT_MOVE_LEFT);
+  else if (BL_KEY_DOWN)   gameOnKeyUp  (&game, EVENT_MOVE_LEFT);
 
-       if (BR_KEY_DOWN) gameOnKeyDown(&game, EVENT_MOVE_RIGHT);
-  else if (BR_KEY_UP)   gameOnKeyUp  (&game, EVENT_MOVE_RIGHT);  
+       if (BR_KEY_UP) gameOnKeyDown(&game, EVENT_MOVE_RIGHT);
+  else if (BR_KEY_DOWN)   gameOnKeyUp  (&game, EVENT_MOVE_RIGHT);  
+  
   
 }
 

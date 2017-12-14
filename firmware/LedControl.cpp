@@ -110,6 +110,7 @@ void LedControl::clearDisplay(int addr) {
 
 void LedControl::setLed(int addr, int row, int column, boolean state) {
     int offset;
+
     byte val=0x00;
 
     if(addr<0 || addr>=maxDevices)
@@ -148,7 +149,7 @@ void LedControl::setColumn(int addr, int col, byte value) {
     for(int row=0;row<8;row++) {
         val=value >> (7-row);
         val=val & 0x01;
-        setLed(addr,row,col,val);
+       setLed(addr,row,col,val); 
     }
 }
 

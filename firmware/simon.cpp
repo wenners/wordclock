@@ -93,11 +93,11 @@ void setupSimon()
   setAllLeds(false);
 
   // Simon Title
-  setLed(1,3,true);
-  setLed(1,4,true);
-  setLed(6,2,true);
-  setLed(6,5,true);
-  setLed(6,8,true);
+  setLed(2,3,true);
+  setLed(2,4,true);
+  setLed(12,8,true);
+  setLed(12,9,true);
+  setLed(12,11,true);
 
   delay(1000);
 

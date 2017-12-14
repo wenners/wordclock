@@ -32,6 +32,10 @@ extern byte prevFrame2[32];
 // Initializes the LED controllers
 void initDisplay();
 
+void initDisplayOff(); // Blanks Display when PIR Off
+
+void initDisplayOn(); // Display on when PIR triggered
+
 // Set the LED brightness (value between 0 and 15)
 void setBrightness(int value);
 

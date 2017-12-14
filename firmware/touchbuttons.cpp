@@ -47,7 +47,9 @@ void initTouch()
   pinMode(pinTRT, INPUT);
   pinMode(pinTLT, INPUT);
   pinMode(pinTLB, INPUT);
-  //pinMode(pinPRB, INPUT);
+ //Brett
+ // pinMode(syncIP, INPUT);
+  //Brett
   //pinMode(pinPRT, INPUT);
   //pinMode(pinPLT, INPUT);
   //pinMode(pinPLB, INPUT);
@@ -65,7 +67,15 @@ void readTouch()
 
   keysPressed = 0;
   keysUpDown = 0;
-   
+ //Brett 
+  
+ //synccheck = digitalRead(syncIP);
+//  if (synccheck == HIGH)
+//  {
+ // synccheck = 1;
+//  }
+  
+  //Brett
   // BOTTOM LEFT
   prev = prevKeysPressed & BL_KEY_PRESSED_BIT; // Get previous state of the pressed bit
   if (!digitalRead(pinTLB))

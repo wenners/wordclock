@@ -7,7 +7,7 @@
 #endif
 
 #define DELAY_AFTER_LETTER  500
-#define DELAY_AFTER_NAME   1000
+#define DELAY_AFTER_NAME   3000
 
 
 // Boot message words
@@ -23,16 +23,20 @@ const byte     w_boot_set[3] PROGMEM = { 14, 7, 3 };
 const byte    w_boot_2015[3] PROGMEM = { 14,11, 4 };
 
 // Show the boot message
-void showBootMessage();
 
 
-#define NUM_NAMES 10
+
+//void showBootMessage();
+
+
+#define NUM_NAMES 1 // SET TO NUMBER OF NAMES IN THE LIST
 
 const byte numLettersByName[] PROGMEM =
 {
-  7, //Credits
-  5, //Aleix
-  7, //Antonio
+ 
+  32, //BRETTOLIVERWORDCLOCK2017
+  3, //BST note number is size of word
+  3, //GMT
   5, //Cesar
   5, //Enric
   6, //Isabel
@@ -41,83 +45,60 @@ const byte numLettersByName[] PROGMEM =
   5, //Oriol
   5  //Sergi 
 };
+
+ 
+ 
+  
 const byte letters[] PROGMEM =
 {
-  // Credits Title
-   1, 9,
-   1,14,
-   1,15,
-   2, 4,
-   2,11,
-   2,14,
-   2,15,
+ 
+   // 38BRETTOLIVERWORDCLOCK2017  Title Note each letter co-ord version number shows first on bottom row
+    15,3, //version number 3
+    15,14, //version number 8
+    15,14, //version number 8 // repeat last letter of each word twice to give a pause between words
+    15,14, //version number 8
+    0, 3, 
+    0, 8,
+    0,11,
+    1,13,
+    1,14,
+    1,14, // repeat T of Brett once short pause
+    2,12,
+    2,15,
+    3, 9,
+    3,10,
+    3,11,
+    3,12,
+    3,12, // repeat R of OLIVER twice long pause
+    3,12, // repeat R of OLIVER twice long pause
+    7,13,
+    7,14,
+    7,15,
+   10,15,
+   10,15, // repeat D of WORD once short pause
+    11,1,
+    11,2,
+    11,3,
+    11,4,
+    11,5,
+   11,12,
+   11,13,
+   11,14,
+   11,15,
   
-  // Aleix
-   0,11,
-   0,12,
-   0,14,
-   1, 4,
-   2, 9,
+ /*    //BST
+   0,3,
+   2,3,
+   2,6,
+  
 
-  //Antonio
-   4, 4,
-   4, 5,
-   5, 5,
-   6, 5,
-   6,13,
-   6,14,
-   6,15,
-  
-  //Cesar
-   6, 1,
-   7, 2,
-   7, 3,
-   7,12,
-   7,14,
-
-  //Enric
-  10, 0,
-  10, 1,
-  12,10,
-  12,11,
-  12,12,
-  
-  //Isabel
-   1, 4,
-   1, 5,
-   1,12,
-   4, 3,
-   4, 8,
-   4,12,
-  
-  //Jordi
-  13, 0,
-  13, 5,
-  13, 8,
-  13,11,
-  13,15,
-
-  //Laura
-   4, 6,
-   4, 7,
-   6, 7,
-   7, 6,
-   7,12,
-  
-  //Oriol
-   2, 5,
-   3, 7,
-   3, 8,
-   3, 9,
-   4, 9,
-   
-  //Sergi
-  14, 6,
-  14,10,
-  14,15,
-  15, 6,
-  15,12
+  //GMT
+   3, 2,
+   7, 0,
+   7, 4,
+ */
 };
+
 
 void creditsManager(unsigned long now, boolean modeChanged);
 
