@@ -35,6 +35,11 @@ Web site: http://home.btconnect.com/brettoliver1/Word_Clock/Word_Clock.htm
 
 Instructables: https://www.instructables.com/id/Arduino-Word-Clock/
 
+
+View/Download Word Manual: https://1drv.ms/w/s!AvgyZhkL0pYCnSKVE37qz6oJ1gMr
+
+View/Download PDF Manual: https://1drv.ms/b/s!AvgyZhkL0pYCnSGLTHygUIr5cacE
+
 ![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/faceplate/Brett11_print_ready.png)
 
 ![alt tag](https://raw.githubusercontent.com/brettoliver/wordclock/master/drawings/Word_clock_side_animation.gif)
