@@ -6,7 +6,7 @@ Rather than using custom PCBs cheap off the shelf modules are used instead. This
 
 The Display LEDs are built directly into the front panel so any size clock can be built. 
 
-There are also modes for digital clock, analogue clock, temperature & humidity, & also three games, Game of Life, Simon & Tetris.
+The clock includes the following modes, word clock, digital clock, analogue clock, temperature & humidity, & also three games, Game of Life, Simon & Tetris.
 
 The clock can be stand alone or run as a slave off a Master Clock if required.
 
@@ -14,7 +14,7 @@ In stand alone mode the clock runs off it's built in temperature compensated rea
 
 When running as a slave off a Master Clock time is synchronised on every 30seconds past the minute.
 
- Summer/Winter time is also automatically adjusted by one of my Pragotron Master Clocks on the BSTin (D7 Nano) pin.
+Summer/Winter time is also automatically adjusted by one of my Pragotron Master Clocks on the BSTin (D7 Nano) pin.
 
 A manual switch can be added instead if quick summer/winter time change is required.
 
