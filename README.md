@@ -31,7 +31,7 @@ A mini USB socket provides brightness information over the serial port and also 
 
 
 
-Web site: http://home.btconnect.com/brettoliver1/Word_Clock/Word_Clock.htm
+Web site: http://www.brettoliver.org.uk/Word_Clock/Word_Clock.htm
 
 Instructables: https://www.instructables.com/id/Arduino-Word-Clock/
 
